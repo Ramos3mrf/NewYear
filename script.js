@@ -8,7 +8,7 @@ const $days = $('days');
 const $hours = $('hours');
 const $minutes = $('minutes');
 const $seconds = $('seconds');
-const targetDate = new Date('2023-12-31T23:59');
+const targetDate = new Date('2024-12-31T23:59');
 
 const updateTimer = () => {
     let totalInsec = Math.floor(
